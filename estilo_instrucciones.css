@@ -1,0 +1,203 @@
+body{
+	font-size: 15px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	margin: 0px;
+    background: #F5F5F5;
+    box-sizing: border-box;
+    background: #F5F5F5;
+}
+main{
+    padding-left: 150px;
+    padding-right:150px;
+}
+.Banner img{
+    width: 100%;
+    margin-top: 180px;
+}
+.titulo1, .titulo2, .titulo3, .titulo4, .titulo5, .titulo6, .titulo7, .titulo8, .titulo9, .titulo10{
+    max-width:100%;
+    padding: 10px;
+    margin-top: 30px;
+    color: #4F504E;
+    text-align:center;
+    font-family: sans-serif;
+    font-size: 20px;
+    background: white;
+    border-bottom: 3px solid #68AB3B;
+    display: flex;
+}
+.titulo{
+    max-width:100%;
+    height: 100px;
+    padding: 20px;
+    color: #68AB3B;
+    text-align:center;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+.titulo h2{
+    margin: 0px;
+}
+
+.titulo1 img, .titulo2 img, .titulo3 img, .titulo4 img, .titulo5 img, .titulo6 img, .titulo7 img, .titulo8 img, .titulo9 img{
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin:auto;
+}
+.titulo10 img{
+   width: 80px;
+    height: 50px;
+    display: block;
+    margin:auto;
+}  
+
+.descripcion1, .descripcion2, .descripcion3, .descripcion4, .descripcion5, .descripcion6, .descripcion7, .descripcion8, .descripcion9{
+    width: 550px;
+    display: block;
+    font-family: sans-serif;
+    font-size: 21px;
+}
+.descripcion5, .descripcion6, .descripcion7, .descripcion8, .descripcion9, .descripcion10  {
+    width: 750px;
+}
+.descripcion1 h3, .descripcion2 h3, .descripcion3 h3, .descripcion4 h3, .descripcion5 h3, .descripcion6 h3, .descripcion7 h3, .descripcion8 h3, .descripcion9 h3, .descripcion10 h3{
+    max-width: 100%;
+    text-align: left;
+    display: block;
+    margin:auto;
+    background: white;
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    font-size: 21px;
+}
+.descripcion1 p, .descripcion2 p, .descripcion3 p, .descripcion4 p, .descripcion5 p, .descripcion6 p, .descripcion7 p, .descripcion8 p, .descripcion9 p, .descripcion10 p{
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+.imagenes1, .imagenes2, .imagenes3, .imagenes4, .imagenes6-1, .imagenes6-2, .imagenes6-3, .imagenes7-1, .imagenes7-2, .imagenes7-3, .imagenes8-1, .imagenes8-2, .imagenes9-1, .imagenes9-2, .imagenes10{
+    background: white;
+    max-width:100%;
+    height: 380px;
+    display: flex;
+}
+.imagenes5-1{
+    background: white;
+    max-width:100%;
+    height: 445px;
+    display: flex;
+}
+.imagenes5-2{
+    background: white;
+    max-width:100%;
+    height: 380px;
+    display: flex;
+    margin:auto;
+}
+.img1-1, .img1-2, .img2-1, .img2-2, .img3-1, .img3-2, .img3-3, .img4-1, .img4-2, .img4-3, .img5-1, .img6-1, .img6-2, .img6-3, .img6-4, .img6-5, .img6-6, .img6-7, .img6-8, .img6-9, .img7-1, .img7-2, .img7-3, .img7-4, .img7-5, .img7-6, .img7-7, .img7-8, .img7-9, .img8-1, .img8-2, .img8-3, .img8-4, .img8-5, .img8-6, .img9-1, .img9-2, .img9-3, .img9-4, .img9-5, .img9-6, .img10-1, .img10-2, .img10-3{
+    background: blue;
+    max-width: 250px;
+    width: 100%;
+    height: 363px;
+    display: block;
+    margin:auto;
+    margin-top: 10px;
+}
+.img5-4, .img5-5, .img5-6, .img5-7{
+    background: purple;
+    max-width: 230px;
+    width: 100%;
+    height: 363px;
+    display: block;
+    margin:auto;
+    margin-top: 10px;
+}
+.contenedor1{
+    background: blue;
+    max-width: 380px;
+    width: 100%;
+    height: 420px;
+    display: block;
+    margin:auto;
+    margin-top: 10px;
+}
+.img1-1{margin-right: 0px;}
+.img1-2{margin-left: 0PX;}
+.img1-1 img, .img1-2 img{
+    display: block;
+    margin:auto;
+}
+.img2-1{margin-right: 0px;}
+.img2-2{margin-left: 0px;}
+.img2-1 img, .img2-2 img{
+    display: block;
+    margin:auto;
+}
+.img3-1{margin-right: 0px;}
+.img3-2{margin-left: 0px; margin-right: 0px;}
+.img3-3{margin-left: 0px;}
+.img3-1 img, .img3-2 img, .img3-3 img{
+    display: block;
+    margin:auto;
+}
+.img4-1{margin-right: 0px;}
+.img4-2{margin-left: 0px; margin-right: 0px;}
+.img4-3{margin-left: 0px;}
+.img4-1 img, .img4-2 img, .img4-3 img{
+    display: block;
+    margin:auto;
+}
+.img5-1{
+    margin-right: 0px;
+    margin-top: 40px;
+}
+.img5-1 img{
+    display: block;
+    margin:auto;
+}
+.img5-2, .img5-3{
+    max-width: 385px;
+    width: 100%;
+    height: 205px;
+    padding: 10px;
+    display: block;
+    background: yellow;
+    box-sizing: border-box;
+}
+.img5-3{margin-top: 10px;}
+.img5-4{margin-right: 0px;}
+.img5-5{margin-left: 0px; margin-right: 0px;}
+.img5-6{margin-left: 0px; margin-right: 0px;}
+.img5-7{margin-left: 0px;}
+.img5-4 img, .img5-5 img, .img5-6 img, .img5-7 img{
+    display: block;
+    margin:auto;
+}
+.img6-1, .img7-1, .img8-1, .img9-1{margin-right: 0px;}
+.img6-2, .img7-2, .img8-2, .img9-2{margin-left: 0px; margin-right: 0px;}
+.img6-3, .img7-3, .img8-3, .img9-3{margin-left: 0px;}
+.img6-1 img, .img6-2 img, .img6-3 img, .img7-1 img, .img7-2 img, .img7-3 img, .img8-1 img, .img8-2 img, .img8-3 img, .img9-1 img, .img9-2 img, .img9-3 img{
+    display: block;
+    margin:auto;
+}
+.img6-4, .img7-4, .img8-4, .img9-4{margin-right: 0px;}
+.img6-5, .img7-5, .img8-5, .img9-5{margin-left: 0px; margin-right: 0px;}
+.img6-6, .img7-6, .img8-6, .img9-6{margin-left: 0px;}
+.img6-4 img, .img6-5 img, .img6-6 img, .img7-4 img, .img7-5 img, .img7-6 img, .img8-4 img, .img8-5 img, .img8-6 img, .img9-4 img, .img9-5 img, .img9-6 img{
+    display: block;
+    margin:auto;
+}
+.img6-7, .img7-7{margin-right: 0px;}
+.img6-8, .img7-8{margin-left: 0px; margin-right: 0px;}
+.img6-9, .img7-9{margin-left: 0px;}
+.img6-7 img, .img6-8 img, .img6-9 img, .img7-7 img, .img7-8 img, .img7-9 img{
+    display: block;
+    margin:auto;
+}
+
+
+

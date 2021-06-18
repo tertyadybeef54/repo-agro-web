@@ -1,0 +1,257 @@
+body{
+	font-size: 15px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	margin: 0px;
+    background: #F5F5F5;
+    box-sizing: border-box;
+}
+
+.slider{
+    width: 100%;
+    top: 154px;
+    overflow: hidden;
+    margin-top: 140px;
+}
+.slider ul{
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    width: 400%;
+    
+    animation: cambio 20s infinite;
+    animation-direction: alternate;
+}
+.slider li{
+    list-style: none;
+    width: 100%;
+    top: 150px;
+}
+.slider img{
+    width: 100%;
+    height: 450px;
+}
+
+@keyframes cambio{
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+    
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+    
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+    
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+}
+main{
+    padding-left: 150px;
+    padding-right:150px;
+    
+}
+.titulo{
+    max-width:100%;
+    height: 80px;
+    padding: 10px;
+    margin-top: 30px;
+    color: #68AB3B;
+    text-align:center;
+    font-family: sans-serif;
+    font-size: 24px;
+    /*background: aqua;*/
+}
+
+.contenido1{
+    max-width:100%;
+    height: 430px;
+    /*background: red;*/
+    margin: auto;
+    padding: 10px;
+    display: flex;
+}
+.columna1{
+    /*background: blue;*/
+    max-width: 480px;
+    width: 100%;
+    height: 250px;
+    padding: 10px;
+    display: block;
+    margin:auto;
+    margin-top:60px;
+}
+.columna2{
+    /*background: blue;*/
+    max-width: 450px;
+    width: 100%;
+    height: 360px;
+    padding: 10px;
+    display: block;
+    margin: auto;
+    margin-top:60px;
+}
+
+.columna1 h2, .columna2 h2{
+    /*background: aqua;*/
+    text-align:center;
+    margin: 0px;
+    Color:#68AB3B;
+}
+
+.columna1 iframe{
+    width: 350px;
+    height: 200px;
+    padding: 10px;
+    display: block;
+    border-radius: 3px;
+    box-shadow: 10px 5px 0px #cccc;
+    display: block;
+    margin: auto;
+}
+.columna2 {
+    text-align: justify;
+    font-size: 13px;
+}
+
+.contenido2{
+    max-width:100%;
+    height: 500px;
+    /*background: orange;*/
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    margin-top: 30px;
+}
+.cuadro1, .cuadro2, .cuadro3{
+    background: white;
+    max-width: 230px;
+    width: 100%;
+    height: 505px;
+    padding: 0px;
+    display: block;
+    margin: auto;  
+}
+.cuadro3{
+     max-width: 350px;
+}
+.cuadro1 img, .cuadro2 img{
+    width: 230px;
+    height: 130px;
+}
+.cuadro3 img{
+    width: 350px;
+    height: 130px;
+}
+
+.cuadro1 h5, .cuadro2 h5, .cuadro3 h5{
+    text-align:center;
+    margin: 0px;
+    padding: 5px;
+    color: white;
+    
+    margin-top: -3px;
+    font-family: sans-serif;
+    font-style: italic;
+}
+.cuadro1 h5{
+    border-top: 3px solid #543E04;
+    background: rgba(60,47,14,0.6);
+}
+.cuadro2 h5{
+    border-top: 3px solid #940B75;
+    background: rgba(148,11,117,0.6);
+}.cuadro3 h5{
+    border-top: 3px solid #6FAF18;
+    background: rgba(111,175,24,0.6);
+}
+.cuadro1 ul, .cuadro2 ul, .cuadro3 ul{
+    padding:15px;
+    margin-top: 0px;
+    font-size: 13px;
+    list-style:none;
+    text-align: justify;
+}
+
+.cuadro1 li:before, .cuadro2 li:before, .cuadro3 li:before{
+    content: "\2022";
+    color:rgba(60,47,14,0.6);
+    padding-right: 10px;
+}
+.cuadro2 li:before{
+  color:rgba(148,11,117,0.6);  
+}
+.cuadro3 li:before{
+    color:rgba(111,175,24,0.6);
+}
+    
+
+/*
+.contenido{
+    background: red;
+    width: 100%;
+    height: 294px;
+    position: absolute;
+    top: 514px;
+    padding-left: 80px;
+    padding-right: 80px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+.video,.funcion_1,.funcion_2{
+    display: block;
+    max-width: 700px;
+    margin: auto;
+}
+.video{
+    width: 400px;
+    padding: 30px;
+    border-right: 2px solid black;
+}
+
+iframe{
+    width: 350px;
+    height: 240px;
+    display: block;
+    border-radius: 5px;
+    box-shadow: 10px 5px 0px #cccc;
+    display: block;
+    margin: auto;
+}
+@media (max-width:768px){
+    .slider{
+        height: 400px;
+    }
+    .linea{
+        top:400px;
+    }
+    .titulos{
+        top:415px;
+        padding-left: 20px;
+        padding-right: 20px;
+        height: 70px;
+    }
+    .titulo_1, .titulo_2{
+        font-size:15px;
+    }
+    .contenido{
+        top: 485px;
+        padding-left: 20px;
+        padding-right: 20px;
+        flex-wrap: wrap;
+        height: 281px;
+    }
+    .video{
+        padding: 10px;
+        border-right: 0px solid black;
+    }
+    iframe{
+        width: 280px;
+        height: 150px;
+    }
+    .funcion_1 img{
+        width: 150px;
+    }
+    .funcion_2 img{
+        width: 150px;
+    }
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="estilo_footer.css">
+    <link rel="stylesheet" type="text/css" href="estilo_header.css">
+    <link rel="stylesheet" type="text/css" href="estilo_login.css">
+    
+</head>
+<body>
+    <header style="background: linear-gradient(-90deg, #68AB3B, #B2E274, #F1F9E7)">
+        <img class ="imagen" src="img-iconos/logo%20Agrolibreta2.png">
+        <input type="checkbox" id="btn-menu">
+        <label for="btn-menu"><img src="img-iconos/icono-menu.png"></label>
+        <nav class="Menu">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="instrucciones.html">Instrucciones</a></li>
+                <li><a href="Descargas.html">Descargas</a></li>
+                <li><a href="Login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>  
+    
+    <form id="singup-form">
+        <div class="formulario">
+            <h2>LOGIN</h2>
+            <label>Introduzca su correo y contraseña</label>
+            <div class="usuario">
+                <img src="img-iconos/usuario.png" alt="" class="iconos">   
+                <input type="email" id="email" name="correo" size="10" placeholder="Correo">
+            </div>
+            <div class="password">
+                <img src="img-iconos/candado.png" alt="" class="iconos">   
+                <input type="password" id="password" name="contraseña" size="10" placeholder="Contraseña">
+            </div>
+            <div class="botones">
+                <button type="submit" class="btn btn-primary"> Iniciar sesión </button>
+            </div> 
+        
+        </div> 
+    </form>
+     
+    <footer style="margin-top: 237px">
+        <div class="container_footer">
+           <div class="column1">
+               <h2>Autores</h2>
+               <ul>
+                   <li>Deisy Katherine Rangel Flórez</li>
+                   <li>Andres Javier Cuadros Sanabria</li>
+               </ul>
+           </div>
+           <div class="column2">
+               <img src="img_footer/logoUIS.png" alt="">
+           </div>
+           <div class="column3">
+               <img src="img_footer/logoescuela.png" alt="">
+           </div> 
+        </div>
+    </footer> 
+    
+
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+
+
+
+    <script>
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        var firebaseConfig = {
+          apiKey: "AIzaSyBBG_M9eHHmqnNsfRilGTLSAVflwSd_YNs",
+          authDomain: "agrolibretav1.firebaseapp.com",
+          databaseURL: "https://agrolibretav1-default-rtdb.firebaseio.com",
+          projectId: "agrolibretav1",
+          storageBucket: "agrolibretav1.appspot.com",
+          messagingSenderId: "170659621285",
+          appId: "1:170659621285:web:8fddd6b262bc22a0f7604c",
+          measurementId: "G-HRLE21DPRC"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        const auth = firebase.auth();
+        firebase.analytics();
+      </script>
+
+
+    <script src= "main.js"></script>
+          
+</body>
+</html>
