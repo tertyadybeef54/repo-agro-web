@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="estilo_footer.css">
     <link rel="stylesheet" type="text/css" href="estilo_header.css">
     <link rel="stylesheet" type="text/css" href="estilo_login.css">
-    
 </head>
+
 <body>
+
+
     <header style="background: linear-gradient(-90deg, #68AB3B, #B2E274, #F1F9E7)">
         <img class ="imagen" src="img-iconos/logo%20Agrolibreta2.png">
         <input type="checkbox" id="btn-menu">
@@ -22,25 +25,29 @@
         </nav>
     </header>  
     
-    <form id="singup-form">
+
+
+    <form id="login-form">
         <div class="formulario">
-            <h2>LOGIN</h2>
+            <h2>Consultar fecha de mi copia de seguridad</h2>
             <label>Introduzca su correo y contraseña</label>
             <div class="usuario">
                 <img src="img-iconos/usuario.png" alt="" class="iconos">   
-                <input type="email" id="email" name="correo" size="10" placeholder="Correo">
+                <input type="email" id="email" name="correo" size="10" placeholder="Correo"> 
             </div>
             <div class="password">
                 <img src="img-iconos/candado.png" alt="" class="iconos">   
                 <input type="password" id="password" name="contraseña" size="10" placeholder="Contraseña">
             </div>
             <div class="botones">
-                <button type="submit" class="btn btn-primary"> Iniciar sesión </button>
+                <button type="submit" class="btn btn-primary"> Consultar </button>
             </div> 
-        
         </div> 
     </form>
      
+
+
+
     <footer style="margin-top: 237px">
         <div class="container_footer">
            <div class="column1">
@@ -68,6 +75,7 @@
      https://firebase.google.com/docs/web/setup#available-libraries -->
 <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-analytics.js"></script>
 <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-firestore.js"></script>
 
 
 
@@ -87,11 +95,11 @@
         // Initialize Firebase
         firebase.initializeApp(firebaseConfig);
         const auth = firebase.auth();
+        const fs = firebase.firestore();
         firebase.analytics();
-      </script>
-
+    </script>
 
     <script src= "main.js"></script>
-          
+
 </body>
 </html>

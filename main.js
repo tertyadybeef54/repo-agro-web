@@ -1,13 +1,35 @@
-const singupForm = document.querySelector('#singup-form');
+const singinForm = document.querySelector('#login-form');
 
-singupForm.addEventListener('submit', (e)=>{
+singinForm.addEventListener('submit', (e)=>{
+    e.preventDefault();
     const email = document.querySelector('#email').value;
     const password = document.querySelector('#password').value;
-    e.preventDefault();
     auth
-    .createUserWithEmailAndPassword(email, password)
+    .signInWithEmailAndPassword(email, password)
     .then(userCredential=>{
-        console.log('sing up')
     })
-
 })
+
+// events
+// list for auth state changes
+auth.onAuthStateChanged((user) => {
+    if (user) {
+      console.log("sign in");
+
+        docRef =  fs.collection("users")
+            .doc(`${user.email}`)
+            .collection("Usuario")
+            .doc("1");
+
+        docRef.get().then((doc) => {
+                if (doc.exists) {
+                    location.href = "usuario.html";
+                } else {
+                console.log("No such document!");
+            }
+        }).catch((error) => {
+            console.log("Error getting document:", error);
+        });
+    }
+  });
+
