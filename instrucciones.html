@@ -5,6 +5,8 @@
     <link rel="stylesheet" type="text/css" href="estilo_header.css">
     <link rel="stylesheet" type="text/css" href="estilo_footer.css">
     <link rel="stylesheet" type="text/css" href="estilo_instrucciones.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="funcionGoUp.js"></script>
 </head>
 <body>
     <header>
@@ -46,21 +48,18 @@
             </div>
         </div>
         <div class="imagenes2">    
-            <div class="img2-1"><img src="img-app/app-registrar-usuario1.jpg"></div>
-            <div class="img2-2"><img src="img-app/app-iniciar%20sesion2.jpg"></div>
-            <div class="img2-3"></div>
+            <div class="img2-1"><img src="img-app/app-iniciar-sesion1.jpg"></div>
         </div>
         <div class="titulo3">
             <div class="numero3"><img src="img-app/3.png"></div>
             <div class="descripcion3">
-                <h3>Crear un cultivo:</h3>
+                <h3>Registrar un cultivo:</h3>
                 <p>A continuación, se dirige a la pantalla de Mis Cultivos en la cual se van a listar todos los cultivos que han sido creados, luego para crear un cultivo seleccione el botón ‘+’ y complete el formulario de registrar cultivo, al terminar oprima el botón ‘Guardar’.</p>
             </div>
         </div>
         <div class="imagenes3">    
             <div class="img3-1"><img src="img-app/app-registrar-cultivo1.png"></div>
-            <div class="img3-2"><img src="img-app/app-registrar-cultivo2.png"></div>
-            <div class="img3-3"><img src="img-app/app-registrar-cultivo3.png"></div>
+            <div class="img3-2"><img src="img-app/app-registrar-cultivo2.jpg"></div>
         </div>
         <div class="titulo4">
             <div class="numero4"><img src="img-app/4.png"></div>
@@ -70,62 +69,64 @@
             </div>
         </div>
         <div class="imagenes4">    
-            <div class="img4-1"><img src="img-app/app-registrar-costo1.png"></div>
-            <div class="img4-2"><img src="img-app/app-registrar-costo2.png"></div>
-            <div class="img4-3"><img src="img-app/app-registrar-costo3.png"></div>
+            <div class="img4-1"><img src="img-app/app-registro-costo1.jpg"></div>
+            <div class="img4-2"><img src="img-app/app-registro-costo2.jpg"></div>
+            <div class="img4-3"><img src="img-app/app-registro-costo3.jpg"></div>
         </div>
         <div class="titulo5">
             <div class="numero5"><img src="img-app/5.png"></div>
             <div class="descripcion5">
-                <h3>Ver costo:</h3>
-                <p>En la pantalla de Mis cultivos en la barra de navegación seleccione ‘Costos’, esto lo dirige a buscar o ver costos (recomendamos ver esa pantalla con el celular horizontal), allí aparecerán todos los costos luego se debe seleccionar un cultivo y si quiere ingrese las fechas desde y hasta, el producto o la actividad, o el concepto del modelo de referencia donde se encuentran clasificados los costos, después oprima el botón de ‘Buscar’ y aparecerán los conceptos que cumplen con los criterios de búsqueda seleccionados. Esta búsqueda es importante ya que al oprimir en un costo se dirige a la pantalla Detalles del costo allí podrá editar la información oprimiendo el icono del lápiz o eliminar el costo oprimiendo el botón ‘Eliminar’.</p>
+               <h3>Crear un registro fotográfico:</h3>
+                <p>En la pantalla de Mis cultivos en la barra de navegación seleccione ‘Galería’ allí podrá encontrar todas las fotos guardadas de sus registros fotográficos y para crear uno nuevo oprima el botón con el icono de ‘añadir fotografía’, esto lo dirige a la pantalla de nuevo registro fotográfico a continuación, debe seleccionar el icono de ‘cámara’ para tomar una foto y después seleccionar los costos asociados o relacionados a la foto tomada, seleccionando el cultivo al cual pertenece dicho costo y al finalizar oprimir el botón de ‘Guardar’. <br> Si quiere editar, eliminar o agregar mas costos a la fotografía en la ‘Galería de registros fotográficos’ seleccione la foto y oprima un botón ‘Eliminar foto’, ‘Añadir’ o ‘Guardar cambios’.</p> 
             </div>
         </div>
-        <div class="imagenes5-1">    
-            <div class="img5-1"><img src="img-app/app-registrar-costo1.png"></div>
-            <div class="contenedor1">
-                <div class="img5-2"><img src="img-app/app-ver-costo1.jpg"></div>
-                <div class="img5-3"><img src="img-app/app-ver-costo2.jpg"></div>
-            </div>
+        <div class="imagenes5-1">   
+            <div class="img5-1"><img src="img-app/app-regfot0.jpg"></div> 
+            <div class="img5-2"><img src="img-app/app-regfot1.jpg"></div>
+            <div class="img5-3"><img src="img-app/app-regfot2.jpg"></div>
+            
         </div>
         <div class="imagenes5-2">
-            <div class="img5-4"><img src="img-app/app-ver-costo3.jpg"></div>
-            <div class="img5-5"><img src="img-app/app-ver-costo4.jpg"></div>
-            <div class="img5-6"><img src="img-app/app-ver-costo5.jpg"></div>
-            <div class="img5-7"><img src="img-app/app-ver-costo6.jpg"></div>
+            <div class="img5-4"><img src="img-app/app-regfor3.jpg"></div> 
+            <div class="img5-5"><img src="img-app/app-regfot4.jpg"></div>
+            <div class="img5-6"><img src="img-app/app-regfot5.jpg"></div>
+        </div>
+        <div class="imagenes5-3">
+            <div class="img5-7"><img src="img-app/app-regfot6.jpg"></div>
+            <div class="img5-8"><img src="img-app/app-regfot7.jpg"></div>
+            <div class="img5-9"><img src="img-app/app-regfot8.jpg"></div>
+          
         </div>
         <div class="titulo6">
             <div class="numero6"><img src="img-app/6.png"></div>
             <div class="descripcion6">
-                <h3>Crear un registro fotográfico:</h3>
-                <p>En la pantalla de Mis cultivos en la barra de navegación seleccione ‘Galería’ allí podrá encontrar todas las fotos guardadas de sus registros fotográficos y para crear uno nuevo oprima el botón con el icono de ‘añadir fotografía’, esto lo dirige a la pantalla de nuevo registro fotográfico a continuación, debe seleccionar el icono de ‘cámara’ para tomar una foto y después seleccionar los costos asociados o relacionados a la foto tomada, seleccionando el cultivo al cual pertenece dicho costo y al finalizar oprimir el botón de ‘Guardar’. <br> Si quiere editar, eliminar o agregar mas costos a la fotografía en la ‘Galería de registros fotográficos’ seleccione la foto y oprima un botón ‘Eliminar foto’, ‘Añadir’ o ‘Guardar cambios’.</p>
+                <h3>Ver costo:</h3>
+                <p>En la pantalla de Mis cultivos en la barra de navegación seleccione ‘Costos’, esto lo dirige a buscar o ver costos (recomendamos ver esa pantalla con el celular horizontal), allí aparecerán todos los costos luego se debe seleccionar un cultivo y si quiere ingrese las fechas desde y hasta, el producto o la actividad, o el concepto del modelo de referencia donde se encuentran clasificados los costos, después oprima el botón de ‘Buscar’ y aparecerán los conceptos que cumplen con los criterios de búsqueda seleccionados. Esta búsqueda es importante ya que al oprimir en un costo se dirige a la pantalla Detalles del costo allí podrá editar la información oprimiendo el icono del lápiz o eliminar el costo oprimiendo el botón ‘Eliminar’.</p>
             </div>
         </div>
         <div class="imagenes6-1">    
-            <div class="img6-1"><img src="img-app/app-registrar-costo1.png"></div>
-            <div class="img6-2"><img src="img-app/app-regfot1.jpg"></div>
-            <div class="img6-3"><img src="img-app/app-regfot2.jpg"></div>
+            <div class="img6-1"><img src="img-app/app-registrar-costo.jpg"></div>
+            <div class="contenedor1">
+                <div class="img6-2"><img src="img-app/app-ver-costo1.jpg"></div>
+                <div class="img6-3"><img src="img-app/app-ver-costo2.jpg"></div>
+            </div>
         </div>
-        <div class="imagenes6-2"> 
-            <div class="img6-4"><img src="img-app/app-regfor3.jpg"></div>
-            <div class="img6-5"><img src="img-app/app-regfot4.jpg"></div>
-            <div class="img6-6"><img src="img-app/app-regfot5.jpg"></div>
-        </div>
-        <div class="imagenes6-3">
-            <div class="img6-7"><img src="img-app/app-regfot6.jpg"></div>
-            <div class="img6-8"><img src="img-app/app-regfot7.jpg"></div>
-            <div class="img6-9"><img src="img-app/app-regfot8.jpg"></div>
+        <div class="imagenes6-2">
+            <div class="img6-4"><img src="img-app/app-ver-costo3.jpg"></div>
+            <div class="img6-5"><img src="img-app/app-ver-costo4.jpg"></div>
+            <div class="img6-6"><img src="img-app/app-ver-costo5.jpg"></div>
+            <div class="img6-7"><img src="img-app/app-ver-costo6.jpg"></div>
         </div>
         <div class="titulo7">
             <div class="numero7"><img src="img-app/7.png"></div>
             <div class="descripcion7">
-                <h3>Al finalizar el cultivo modifique su estado:</h3>
+                <h3>Modificar su estado al finalizar el cultivo:</h3>
                 <p>En la pantalla de Mis cultivos seleccione ‘Entrar’ al cultivo que esta por finalizar y oprima el icono de ‘configuración del cultivo’, allí en Información General del cultivo se puede ver el icono del lápiz lo cual quiere decir que toda la información se puede editar, en especial: el estado que puede ser activo, inactivo o perdido, el precio de venta sugerido el cual necesita una cantidad de unidades a vender y un porcentaje de ganancia, la fecha de finalización y por último el presupuesto.</p>
             </div>
         </div>
         <div class="imagenes7-1">    
-            <div class="img7-1"><img src="img-app/app-registrar-costo1.png"></div>
-            <div class="img7-2"><img src="img-app/app-registrar-costo2.png"></div>
+            <div class="img7-1"><img src="img-app/app-registrar-costo.jpg"></div>
+            <div class="img7-2"><img src="img-app/app-estado0.jpg"></div>
             <div class="img7-3"><img src="img-app/app-estado1.jpg"></div>
         </div>
         <div class="imagenes7-2">    
@@ -147,46 +148,52 @@
             </div>
         </div>
         <div class="imagenes8-1">    
-            <div class="img8-1"><img src="img-app/app-registrar-costo1.png"></div>
+            <div class="img8-1"><img src="img-app/app-informe0.jpg"></div>
             <div class="img8-2"><img src="img-app/app-informe1.jpg"></div>
             <div class="img8-3"><img src="img-app/app-informe2.jpg"></div>
         </div>
         <div class="imagenes8-2">    
             <div class="img8-4"><img src="img-app/app-informe3.jpg"></div>
             <div class="img8-5"><img src="img-app/app-informe4.jpg"></div>
-            <div class="img8-6"><img src="img-app/app-informe5.jpg"></div>
         </div>
         <div class="titulo9">
             <div class="numero9"><img src="img-app/9.png"></div>
             <div class="descripcion9">
-                <h3>Utilidades:</h3>
+                <h3>Registrar un Modelo de Referencia:</h3>
                 <p>En la pantalla de Mis cultivos en la barra de navegación seleccione Utilidades, allí encontrara todos los modelos de referencia, las ubicaciones, las unidades de medida y los productos que se encuentran por defecto y los que ha creado a lo largo del tiempo. Si quiere crear uno nuevo modelo de referencia seleccione Modelos de Referencia y oprima el botón ‘+’, allí debe poner los nuevos porcentajes para cada concepto oprimiendo el botón ‘+’ y que la suma de todos complete el 100% (Esto es importante ya que debe crear el modelo de referencia antes de crear un nuevo cultivo para que lo pueda seleccionar, de lo contrario no aparecerá en la lista).</p>
             </div>
         </div>
         <div class="imagenes9-1">    
-            <div class="img9-1"><img src="img-app/app-registrar-costo1.png"></div>
-            <div class="img9-2"><img src="img-app/app-MR-1.jpeg.jpg"></div>
-            <div class="img9-3"><img src="img-app/app-MR2.png"></div>
+            <div class="img9-1"><img src="img-app/app-MR0.jpg"></div>
+            <div class="img9-2"><img src="img-app/app-MR1.jpg"></div>
+            <div class="img9-3"><img src="img-app/app-MR2.jpg"></div>
+            <div class="img9-4"><img src="img-app/app-MR3.jpg"></div>
         </div>
-        <div class="imagenes9-2">    
-            <div class="img9-4"><img src="img-app/app-MR3.png"></div>
-            <div class="img9-5"><img src="img-app/app-MR4.png"></div>
-            <div class="img9-6"><img src="img-app/app-MR5.png"></div>
+        <div class="imagenes9-2"> 
+            <div class="img9-5"><img src="img-app/app-MR4.jpg"></div>
+            <div class="img9-6"><img src="img-app/app-utilidades5.jpg"></div>
+            <div class="img9-6"><img src="img-app/app-utilidades7.jpg"></div>
+            <div class="img9-6"><img src="img-app/app-utilidades6.jpg"></div>
         </div>
         <div class="titulo10">
             <div class="numero10"><img src="img-app/10.png"></div>
             <div class="descripcion10">
-                <h3>Perfil de usuario: </h3>
+                <h3>Crear una copia de seguridad: </h3>
                 <p>En la pantalla de Mis Cultivos oprima el icono de ‘usuario’, allí encontrara toda su información personal que puede editar seleccionando el icono del ‘lápiz’, también encontrara un botón de ‘Sincronizar datos’ el cual le permite tener una copia de seguridad, es importante que cuando su conexión a internet sea estable y tenga información nueva oprima este botón para evitar pérdidas, de lo contrario no podrá realizar copias de seguridad y se almacenara todo de manera local.</p>
             </div>
         </div>
-        <div class="imagenes10">    
-            <div class="img10-1"><img ></div>
-            <div class="img10-2"><img ></div>
-            <div class="img10-3"><img ></div>
+        <div class="imagenes10-1">    
+            <div class="img10-1"><img src="img-app/app-perfilusuario0.jpg"></div>
+            <div class="img10-2"><img src="img-app/app-perilusuario1.jpg"></div>
+            <div class="img10-3"><img src="img-app/app-perfilusuario2.jpg"></div>
+        </div>
+        <div class="imagenes10-2">    
+            <div class="img10-4"><img src="img-app/app-perfilusuario3.jpg"></div>
+            <div class="img10-5"><img src="img-app/app-perfilusuario4.jpg"></div>
+            <div class="img10-6"><img src="img-app/app-perfilusuario5.jpg"></div>
+            <div class="img10-7"><img src="img-app/app-perfilusuario6.jpg"></div>
         </div>
     </main>
-    
     
     
     <footer style="margin-top: 117px">
@@ -194,8 +201,8 @@
            <div class="column1">
                <h2>Autores</h2>
                <ul>
-                   <li>Deisy Katherine Rangel Flórez</li>
-                   <li>Andres Javier Cuadros Sanabria</li>
+                   <li>Deisy Katherine Rangel Flórez <br>email: deisy.rangel@correo.uis.edu.co</li>
+                   <li>Andres Javier Cuadros Sanabria <br>email: andres.cuadros@correo.uis.edu.co</li>
                </ul>
            </div>
            <div class="column2">

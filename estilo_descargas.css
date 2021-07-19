@@ -27,7 +27,7 @@ main{
 }
 .contenido1-1{
     background: white;
-    width: 400px;
+    width: 700px;
     height: 100px;
     display: flex;
     margin:auto;
@@ -65,5 +65,10 @@ main{
     text-align: end;
     margin-top: 30px;
     font-style: italic;
-    
+
+}
+.playstore img{
+    margin-top: 30px;
+    width: 180px;
+    height: 60px;
 }

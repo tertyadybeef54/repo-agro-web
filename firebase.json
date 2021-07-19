@@ -1,6 +1,5 @@
 {
   "hosting": {
-    "site": "agrolibretav1",
     "public": "./",
     "ignore": [
       "firebase.json",
